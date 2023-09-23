@@ -4,12 +4,18 @@ All notable changes to the "fhir-snippets" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+[0.0.6] - 2023-09-24
+
+### Added
+
+- snippet files for FHIR RelatedPerson instance examples
+
 ## [0.0.5] - 2023-09-24
 
 ### Added
 
 - README updated with full details of supported FHIR structures
-- 
+
 ## [0.0.4] - 2023-09-23
 
 ### Added

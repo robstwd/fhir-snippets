@@ -144,3 +144,16 @@ The following Identifier types pertinent for the PractitionerRole resource in an
 | PractitionerRole-Identifier-Employee Number | `PractitionerRole-Identifier-EmployeeNumber` | [AU Employee Number](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-employeenumber.html) |
 | PractitionerRole-Identifier-National Provider Identifier At Organisation | `PractitionerRole-Identifier-NationalProviderIdentifierAtOrganisation` | [AU National Provider Identifier At Organisation](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-nationalprovideridentifieratorganisation.html) |
 
+### RelatedPerson
+#### Resource flavours
+The following flavours of the RelatedPerson resource are supported:
+
+| Snippet Name | Prefix   | Aligns to structure |
+| ------------ | -------- | ----------- |
+| Example FHIR RelatedPerson core spec | `RelatedPerson-corespec` | [Core R4 RelatedPerson](https://hl7.org/fhir/R4/relatedperson.html) |
+| Example FHIR RelatedPerson AU Base | `RelatedPerson-aubase` | [AU Base RelatedPerson](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-relatedperson.html) |
+| Example FHIR RelatedPerson AU Core | `RelatedPerson-aucore` | [AU Core RelatedPerson](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-relatedperson.html) |
+
+#### Identifier types
+All of the  Australian context Patient related Identifier types can also be used in RelatedPerson resources. See above.
+
