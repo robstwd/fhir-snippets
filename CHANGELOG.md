@@ -10,6 +10,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - snippet files for other FHIR resources, ie HealthcareService, Organization, Patient & PractitionerRole
 - various infrastructure files for the extension
+- first upload to the extension Marketplace
 
 ## [0.0.2] - 2023-09-23
 
