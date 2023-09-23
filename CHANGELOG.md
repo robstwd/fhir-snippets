@@ -4,6 +4,12 @@ All notable changes to the "fhir-snippets" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.4] - 2023-09-23
+
+### Added
+
+- changelog details
+
 ## [0.0.3] - 2023-09-23
 
 ### Added
