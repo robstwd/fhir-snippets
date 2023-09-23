@@ -88,7 +88,7 @@ The following flavours of the Patient resource are supported:
 | ------------ | -------- | ----------- |
 | Example FHIR Patient core spec | `Patient-corespec` | [Core R4 Patient](https://hl7.org/fhir/R4/patient.html) |
 | Example FHIR Patient AU Base | `Patient-aubase` | [AU Base Patient](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-patient.html) |
-| Example FHIR Patient AU Core | `Patient-aucore` | [AU Core Patient](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-core-Patient.html) |
+| Example FHIR Patient AU Core | `Patient-aucore` | [AU Core Patient](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-patient.html) |
 
 #### Identifier types
 The following Identifier types pertinent for the Patient resource in an Australian context are supported:
