@@ -2,7 +2,7 @@
   "name": "fhir-snippets",
   "displayName": "FHIR Snippets in XML",
   "description": "Lots of fun creating FHIR instances in xml",
-  "publisher": "Rob Eastwood",
+  "publisher": "fhir-snippet-experiments",
   "version": "0.0.3",
   "engines": {
     "vscode": "^1.82.0"
