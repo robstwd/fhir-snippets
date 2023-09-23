@@ -42,7 +42,7 @@ The following flavours of the Location resource are supported:
 | ------------ | -------- | ----------- |
 | Example FHIR Location core spec | `Location-corespec` | [Core R4 Location](https://hl7.org/fhir/R4/location.html) |
 | Example FHIR Location AU Base | `Location-aubase` | [AU Base Location](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-location.html) |
-| Example FHIR Location AU Core | `Location-aucore` | [AU Core Location](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-core-location.html) |
+| Example FHIR Location AU Core | `Location-aucore` | [AU Core Location](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-location.html) |
 | Example FHIR Location PCA mobile | `Location-pca-mobile` | [PCA Location](https://pca.digitalhealth.gov.au/fhir/4.0/2.4.0/StructureDefinition-pca-location.html) of type 'mobile'|
 | Example FHIR Location PCA virtual | `Location-pca-virtual` | [PCA Location](https://pca.digitalhealth.gov.au/fhir/4.0/2.4.0/StructureDefinition-pca-location.html) of type 'virtual'|
 
@@ -64,7 +64,7 @@ The following flavours of the Organization resource are supported:
 | ------------ | -------- | ----------- |
 | Example FHIR Organization core spec | `Organization-corespec` | [Core R4 Organization](https://hl7.org/fhir/R4/organization.html) |
 | Example FHIR Organization AU Base | `Organization-aubase` | [AU Base Organization](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-organization.html) |
-| Example FHIR Organization AU Core | `Organization-aucore` | [AU Core Organization](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-core-organization.html) |
+| Example FHIR Organization AU Core | `Organization-aucore` | [AU Core Organization](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-organization.html) |
 
 #### Identifier types
 The following Identifier types pertinent for the Organization resource in an Australian context are supported:
@@ -112,7 +112,7 @@ The following flavours of the Practitioner resource are supported:p
 | ------------ | -------- | ----------- |
 | Example FHIR Practitioner core spec | `Practitioner-corespec` | [Core R4 Practitioner](https://hl7.org/fhir/R4/practitioner.html) |
 | Example FHIR Practitioner AU Base | `Practitioner-aubase` | [AU Base Practitioner](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-practitioner.html) |
-| Example FHIR Practitioner AU Core | `Practitioner-aucore` | [AU Core Practitioner](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-core-Practitioner.html) |
+| Example FHIR Practitioner AU Core | `Practitioner-aucore` | [AU Core Practitioner](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-practitioner.html) |
 
 #### Identifier types
 The following Identifier types pertinent for the Practitioner resource in an Australian context are supported:
@@ -133,7 +133,7 @@ The following flavours of the PractitionerRole resource are supported:
 | ------------ | -------- | ----------- |
 | Example FHIR PractitionerRole core spec | `PractitionerRole-corespec` | [Core R4 PractitionerRole](https://hl7.org/fhir/R4/practitionerrole.html) |
 | Example FHIR PractitionerRole AU Base | `PractitionerRole-aubase` | [AU Base PractitionerRole](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-practitionerrole.html) |
-| Example FHIR PractitionerRole AU Core | `PractitionerRole-aucore` | [AU Core PractitionerRole](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-core-practitionerrole.html) |
+| Example FHIR PractitionerRole AU Core | `PractitionerRole-aucore` | [AU Core PractitionerRole](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-practitionerrole.html) |
 
 #### Identifier types
 The following Identifier types pertinent for the PractitionerRole resource in an Australian context are supported:
