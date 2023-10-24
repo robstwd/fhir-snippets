@@ -46,7 +46,7 @@
       "    <coding>",
       "      <system value=\"http://terminology.hl7.org.au/CodeSystem/v2-0203\"/>",
       "      <code value=\"DPID\"/>",
-      "      <display value=\"Australia Post Delivery Point Identifierv\"/>",
+      "      <display value=\"Australia Post Delivery Point Identifier\"/>",
       "    </coding>",
       "    <text value=\"Delivery Point Identifier\"/>",
       "  </type>",
