@@ -252,7 +252,7 @@
       "</Location>"
     ],
     "description": "This snippet inserts a full representation of a FHIR Location resource in XML, algned to PCA Location of kind mobile"
-  }
+  },
   "Example FHIR Location PCA virtual": {
     "isFileTemplate": true,
     "scope": "xml",
