@@ -67,7 +67,7 @@
       "  </endpoint>",
       "</Location>"
     ],
-    "description": "This snippet inserts a full representation of a FHIR Location resource in XML, algned to the core spec"
+    "description": "This snippet inserts a full representation of a FHIR Location resource in XML, aligned to the core spec"
   },
   "Example FHIR Location AU Base": {
     "isFileTemplate": true,
@@ -139,7 +139,7 @@
       "  </endpoint>",
       "</Location>"
     ],
-    "description": "This snippet inserts a full representation of a FHIR Location resource in XML, algned to AU Base Location"
+    "description": "This snippet inserts a full representation of a FHIR Location resource in XML, aligned to AU Base Location"
   },
   "Example FHIR Location AU Core": {
     "isFileTemplate": true,
@@ -181,7 +181,7 @@
       "  </managingOrganization>",
       "</Location>"
     ],
-    "description": "This snippet inserts a full representation of a FHIR Location resource in XML, algned to AU Core Location"
+    "description": "This snippet inserts a full representation of a FHIR Location resource in XML, aligned to AU Core Location"
   },
   "Example FHIR Location PCA mobile": {
     "isFileTemplate": true,
@@ -251,7 +251,7 @@
       "  </managingOrganization>",
       "</Location>"
     ],
-    "description": "This snippet inserts a full representation of a FHIR Location resource in XML, algned to PCA Location of kind mobile"
+    "description": "This snippet inserts a full representation of a FHIR Location resource in XML, aligned to PCA Location of kind mobile"
   },
   "Example FHIR Location PCA virtual": {
     "isFileTemplate": true,
@@ -312,7 +312,7 @@
       "  </managingOrganization>",
       "</Location>"
     ],
-    "description": "This snippet inserts a full representation of a FHIR Location resource in XML, algned to PCA Location of kind virtual / remote"
+    "description": "This snippet inserts a full representation of a FHIR Location resource in XML, aligned to PCA Location of kind virtual / remote"
   },
   "Example FHIR Location PCA physical": {
     "isFileTemplate": true,
