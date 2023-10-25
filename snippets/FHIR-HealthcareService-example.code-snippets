@@ -291,7 +291,7 @@
       "  </meta>",
       "  ${BLOCK_COMMENT_START} add HPI-O Identifier type ${BLOCK_COMMENT_END}",
       "  <identifier/>",
-      "  <active value=\"true\"/>",
+      "  <active value=\"${1|true,false|}\"/>",
       "  <providedBy>",
       "    <reference value=\"Organization/TODO}\"/>",
       "    <display value=\"TODO\"/>",

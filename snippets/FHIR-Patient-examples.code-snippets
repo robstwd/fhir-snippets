@@ -366,7 +366,7 @@
       "  <identifier/>",
       "  ${BLOCK_COMMENT_START} Add AU DVA Number Identifier type ${BLOCK_COMMENT_END}",
       "  <identifier/>",
-      "  <active value=\"true\"/>",
+      "  <active value=\"${6|true,false|}\"/>",
       "  <name/>",
       "  <name/>",
       "  <telecom/>",

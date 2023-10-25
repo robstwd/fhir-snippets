@@ -123,7 +123,7 @@
       "  <identifier/>",
       "  ${BLOCK_COMMENT_START} Add ABN Identifier ${BLOCK_COMMENT_END}",
       "  <identifier/>",
-      "  <active value=\"true\"/>",
+      "  <active value=\"${1|true,false|}\"/>",
       "  ${BLOCK_COMMENT_START} Choose `type` from preferred binding https://healthterminologies.gov.au/fhir/ValueSet/healthcare-organisation-role-type-1 ${BLOCK_COMMENT_END}",
       "  <type>",
       "    <coding>",

@@ -181,7 +181,7 @@
       "  <identifier/>",
       "  ${BLOCK_COMMENT_START} Add Medicare Provider Number Identifier type ${BLOCK_COMMENT_END}",
       "  <identifier/>",
-      "  <active value=\"true\"/>",
+      "  <active value=\"${1|true,false|}\"/>",
       "  <practitioner>",
       "    <reference value=\"Practitioner/TODO\"/>",
       "    <display value=\"TODO\"/>",

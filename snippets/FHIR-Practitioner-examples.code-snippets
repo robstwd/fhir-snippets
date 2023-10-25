@@ -264,7 +264,7 @@
       "  ${BLOCK_COMMENT_START} Add HPI-I Identifier ${BLOCK_COMMENT_END}",
       "  <identifier/>",
       "  <identifier/>",
-      "  <active value=\"true\"/>",
+      "  <active value=\"${1|true,false|}\"/>",
       "  <name/>",
       "  <name/>",
       "  <telecom/>",

@@ -118,7 +118,7 @@
       "  <identifier/>",
       "  ${BLOCK_COMMENT_START} Add DVA Number Identifier ${BLOCK_COMMENT_END}",
       "  <identifier/>",
-      "  <active value=\"true\"/>",
+      "  <active value=\"${1|true,false|}\"/>",
       "  <patient>",
       "    <reference value=\"Patient/TODO\"/>",
       "    <display value=\"TODO\"/>",
