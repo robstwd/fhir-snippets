@@ -45,6 +45,7 @@ The following flavours of the Location resource are supported:
 | Example FHIR Location AU Core | `Location-aucore` | [AU Core Location](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-location.html) |
 | Example FHIR Location PCA mobile | `Location-pca-mobile` | [PCA Location](https://pca.digitalhealth.gov.au/fhir/4.0/2.4.0/StructureDefinition-pca-location.html) of type 'mobile'|
 | Example FHIR Location PCA virtual | `Location-pca-virtual` | [PCA Location](https://pca.digitalhealth.gov.au/fhir/4.0/2.4.0/StructureDefinition-pca-location.html) of type 'virtual'|
+| Example FHIR Location PCA physical | `Location-pca-physical` | [PCA Location](https://pca.digitalhealth.gov.au/fhir/4.0/2.4.0/StructureDefinition-pca-location.html) of type 'physical'|
 
 #### Identifier types
 The following Identifier types pertinent for the Location resource in an Australian context are supported:
