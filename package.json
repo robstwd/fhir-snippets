@@ -3,7 +3,7 @@
   "displayName": "FHIR Snippets in XML",
   "description": "Lots of fun creating FHIR instances in xml",
   "publisher": "fhir-snippet-experiments",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -63,6 +63,10 @@
       {
         "language": "xml",
         "path": "./snippets/FHIR-RelatedPerson-example.code-snippets"
+      },
+      {
+        "language": "xml",
+        "path": "./snippets/FHIR-Observation-example.code-snippets"
       }
     ]
   },

@@ -4,7 +4,45 @@ All notable changes to the "fhir-snippets" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-[0.0.6] - 2023-09-24
+## [0.0.7] - 2023-10-26
+
+### Fixed
+
+- corrected display value TODO string (added hyphen)
+- corrected change log heading
+- fixed typos
+- fixed snippet JSON formatting
+- fixed ordering of snippet inserted text entries
+
+### Added
+
+- Location snippet aligned to PCA Location of kind physical
+
+### Removed
+
+#### AU Core Patient profile snippet
+
+- removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
+- removed date of arrival extension (following decision taken recently at AU Core Technical Working Group meetings)
+
+#### AU Core PractitionerRole profile snippet
+- removed PractitionerRole.healthcareService (following decision taken recently at AU Core Technical Working Group meetings)
+- removed PractitionerRole.identifier related to HPI-I (following decision taken recently at AU Core Technical Working Group meetings)
+- removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
+
+#### AU Core Practitioner profile snippet
+- AU Core Practitioner profile snippet: removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
+
+#### AU Core Organisation profile snippet
+- removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
+
+#### AU Core HealthcareService profile snippet
+- removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
+
+#### AU Core RelatedPerson profile snippet
+- removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
+
+## [0.0.6] - 2023-09-24
 
 ### Added
 
