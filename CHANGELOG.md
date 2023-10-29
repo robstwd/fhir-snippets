@@ -42,17 +42,23 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 #### AU Core RelatedPerson profile snippet
 - removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
 
+[0.0.7]: https://github.com/robstwd/fhir-snippets/compare/v0.0.6...v0.0.7
+
 ## [0.0.6] - 2023-09-24
 
 ### Added
 
 - snippet files for FHIR RelatedPerson instance examples
 
+[0.0.6]: https://github.com/robstwd/fhir-snippets/compare/v0.0.5...v0.0.6
+
 ## [0.0.5] - 2023-09-24
 
 ### Added
 
 - README updated with full details of supported FHIR structures
+
+[0.0.5]: https://github.com/robstwd/fhir-snippets/compare/v0.0.4...v0.0.5
 
 ## [0.0.4] - 2023-09-23
 
