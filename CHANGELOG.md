@@ -31,7 +31,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
 
 #### AU Core Practitioner profile snippet
-- AU Core Practitioner profile snippet: removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
+- removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
 
 #### AU Core Organisation profile snippet
 - removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
