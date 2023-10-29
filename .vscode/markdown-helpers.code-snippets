@@ -1,0 +1,29 @@
+{
+  "Markdown Change Log Entry": {
+    "isFileTemplate": false,
+    "scope": "markdown",
+    "prefix": "changelog",
+    "body": [
+      "## [${1:Unreleased}] - ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "",
+      "### Added",
+      "",
+      "- ${2:Add your change here}",
+      "",
+      "### Changed",
+      "",
+      "- ${3:Add your change here}",
+      "",
+      "### Removed",
+      "",
+      "- ${4:Add your change here}",
+      "",
+      "### Fixed",
+      "",
+      "- ${5:Add your change here}",
+      "",
+      "[$1]: https://github.com/robstwd/fhir-snippets/compare/v${6}...v$1"
+    ],
+    "description": "Insert a Markdown change log entry"
+  }
+}
