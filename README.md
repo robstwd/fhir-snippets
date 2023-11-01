@@ -108,7 +108,7 @@ The following Identifier types pertinent for the Patient resource in an Australi
 
 ### Practitioner
 #### Resource flavours
-The following flavours of the Practitioner resource are supported:p
+The following flavours of the Practitioner resource are supported:
 | Snippet Name | Prefix   | Aligns to structure |
 | ------------ | -------- | ----------- |
 | Example FHIR Practitioner core spec | `Practitioner-corespec` | [Core R4 Practitioner](https://hl7.org/fhir/R4/practitioner.html) |
