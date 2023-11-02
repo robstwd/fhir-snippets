@@ -141,7 +141,29 @@
       "</Organization>"
     ],
     "description": "This snippet inserts a full representation of a FHIR Organization resource in XML, aligned to the AU Core profile"
-    ]
+  },
+  "Example FHIR Organization AU Provider Directory": {
+    "isFileTemplate": true,
+    "scope": "xml",
+    "prefix": "Organization-aupd",
+    "body": [
+      "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+      "${BLOCK_COMMENT_START} TODO customise to your scenario / use case ${BLOCK_COMMENT_END}",
+      "<Organization xmlns=\"http://hl7.org/fhir\">",
+      "  <id value=\"${TM_FILENAME/(.*)\\..+$/$1/}\"/>",
+      "  <meta>",
+      "    <source value=\"TODO\"/>",
+      "    <profile value=\"http://hl7.org.au/fhir/pd/StructureDefinition/au-pd-organisation\"/>",
+      "  </meta>",
+      "  ${BLOCK_COMMENT_START} Add HPI-O Identifier ${BLOCK_COMMENT_END}",
+      "  <identifier/>",
+      "  <active value=\"${1|true,false|}\"/>",
+      "  <name value=\"TODO Name of Directory Entry Organisation\"/>",
+      "  <telecom/>",
+      "  <address/>",
+      "</Organization>"
+    ],
+    "description": "This snippet inserts a representation of a FHIR Organization resource in XML, aligned to the AU Provider Directory profile"
   }
 
   // TODO add PCA Organization snippet
