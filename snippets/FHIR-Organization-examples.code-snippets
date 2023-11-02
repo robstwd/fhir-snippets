@@ -139,6 +139,8 @@
       "  <address/>",
       "  <address/>",
       "</Organization>"
+    ],
+    "description": "This snippet inserts a full representation of a FHIR Organization resource in XML, aligned to the AU Core profile"
     ]
   }
 
