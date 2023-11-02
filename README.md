@@ -20,6 +20,7 @@ This extension supports snippets for
 - entire FHIR resource types, such as Patient, Practitioner, HealthcareService, Location, Organization, PractitionerRole and RelatedPerson
   - each resource type is represented in a number of '_flavours_', that comply with the core spec as well as various profiles in the Australian context; such as HL7AU AU Base profiles, or HL7AU AU Core profiles. See below for the complete list of supported _flavours_.
   - each of the file snippets represents a complete FHIR resource, with all mandatory elements and the majority of available optional elements. The optional elements can then just be deleted as desired to support the scenario of interest
+  - snippets complying with AU Core profiles include all mandatory elements and only optional elements that have must support as true
   - the sample values supplied use the string "TODO" to be a prompt for the user to update with desired values
   - where terminology based elements have a discrete list of codes, they are supported by a drop down pick list in the snippet
 - Identifier datatype nodes, such as IHI or HPI-I identifiers
