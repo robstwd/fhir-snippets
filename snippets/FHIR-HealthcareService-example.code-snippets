@@ -334,8 +334,9 @@
       "    </coding>",
       "  </serviceProvisionCode>",
       "</HealthcareService>"
-    ]
-  }
+    ],
+    "description": "This snippet inserts a full representation of a FHIR HealthcareService resource in XML, aligned to AU Core HealthcareService"
+  },
   // TODO HealthcareService - add PCA HealthcareService snippet
   "Example FHIR HealthcareService PCA": {
     "isFileTemplate": true,
