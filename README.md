@@ -49,6 +49,7 @@ The following flavours of the HealthcareService resource are supported:
 | Example FHIR HealthcareService core spec | `HealthcareService-corespec` | [Core R4 HealthcareService](https://hl7.org/fhir/R4/healthcareservice.html) |
 | Example FHIR HealthcareService AU Base | `HealthcareService-aubase` | [AU Base HealthcareService](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-healthcareservice.html) |
 | Example FHIR HealthcareService AU Core | `HealthcareService-aucore` | [AU Core HealthcareService](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-healthcareservice.html) |
+| Example FHIR HealthcareService PCA | `HealthcareService-pca` | [PCA Healthcare Service](https://pca.digitalhealth.gov.au/fhir/4.0/StructureDefinition-pca-healthcare-service.html) |
 
 #### Identifier types
 The following Identifier types pertinent for the HealthcareService resource in an Australian context are supported:
