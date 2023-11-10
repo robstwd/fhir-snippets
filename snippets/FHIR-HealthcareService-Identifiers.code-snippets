@@ -36,5 +36,16 @@
       "</identifier>"
     ],
     "description": "This snippet inserts a FHIR HealthcareService.identifier node for HPI-O in XML, in compliance with the HL7AU HPI-O Identifier profile http://hl7.org.au/fhir/StructureDefinition/au-hpio"
-  }
+  },
+  "HealthcareService-Identifier-PCAHSI": {
+    "scope": "xml",
+    "prefix": "HealthcareService-Identifier-pcahsi",
+    "body": [
+      "<identifier>",
+      "  <system value=\"http://pca.digitalhealth.gov.au/id/pca-healthcare-service\"/>",
+      "  <value value=\"${RANDOM}${RANDOM}${RANDOM}\"/>",
+      "</identifier>"
+    ],
+    "description": "This snippet inserts a FHIR HealthcareService.identifier node in XML, in compliance with the PCA Healthcare Service Identifier (PCA-HSI) Identifier profile https://pca.digitalhealth.gov.au/fhir/4.0/StructureDefinition-pca-healthcare-service-identifier.html"
+  },
 }

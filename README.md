@@ -58,6 +58,7 @@ The following Identifier types pertinent for the HealthcareService resource in a
 | ------------ | -------- | ----------- |
 | HealthcareService-Identifier-Residential Aged Care Service Identifier | `HealthcareService-Identifier-ResidentialAgedCareServiceIdentifier` | [AU Residential Aged Care Service Identifier](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-residentialagedcareserviceidentifier.html) |
 | HealthcareService-Identifier-HPI-O | `HealthcareService-Identifier-HPI-O` and `hpio` | [AU HPI-O Identifier](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-hpio.html) |
+| HealthcareService-Identifier-PCAHSI | `HealthcareService-Identifier-pcahsi` | [PCA Healthcare Service Identifier](https://pca.digitalhealth.gov.au/fhir/4.0/StructureDefinition-pca-healthcare-service-identifier.html) |
 
 ### Location
 #### Resource flavours
