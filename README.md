@@ -93,6 +93,7 @@ The following flavours of the Organization resource are supported:
 | Example FHIR Organization AU Base | `Organization-aubase` | [AU Base Organization](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-organization.html) |
 | Example FHIR Organization AU Core | `Organization-aucore` | [AU Core Organization](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-organization.html) |
 | Example FHIR Organization AU PD | `Organization-aupd` | [AU PD Organization](http://hl7.org.au/fhir/pd/StructureDefinition/au-pd-organisation) |
+| Example FHIR Organization PCA | `Organization-pca` | [PCA Organization](https://pca.digitalhealth.gov.au/fhir/4.0/StructureDefinition-pca-organization.html) |
 
 #### Identifier types
 The following Identifier types pertinent for the Organization resource in an Australian context are supported:
