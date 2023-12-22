@@ -4,6 +4,34 @@ All notable changes to the "fhir-snippets" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.0] - 2023-12-23
+
+### Added
+
+- added snippet for FHIR Organization aligned to AU PD Organisation profile
+- added snippet for FHIR Organization aligned to PCA Organisation profile
+- added snippet for FHIR HealthcareService aligned to PCA Healthcare Service profile
+- added snippet for FHIR Identifier aligned to PCA Healthcare Service Identifier (PCA-HSI) profile
+- added hyperlinks to Changelog for GitHub tag comparison
+- added sections in README for feature and usage
+- added missing description for AU Core Organisation snippet
+- added missing description for AU Core HealthcareService snippet
+- added internal snippet to facilitate Changelog updates
+
+### Changed
+
+- nil
+
+### Removed
+
+- removed redundant text from a changelog entry
+
+### Fixed
+
+- readme typo
+
+[0.1.0]: https://github.com/robstwd/fhir-snippets/compare/v0.0.7...v0.1.0
+
 ## [0.0.7] - 2023-10-26
 
 ### Fixed
@@ -26,20 +54,25 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - removed date of arrival extension (following decision taken recently at AU Core Technical Working Group meetings)
 
 #### AU Core PractitionerRole profile snippet
+
 - removed PractitionerRole.healthcareService (following decision taken recently at AU Core Technical Working Group meetings)
 - removed PractitionerRole.identifier related to HPI-I (following decision taken recently at AU Core Technical Working Group meetings)
 - removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
 
 #### AU Core Practitioner profile snippet
+
 - removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
 
 #### AU Core Organisation profile snippet
+
 - removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
 
 #### AU Core HealthcareService profile snippet
+
 - removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
 
 #### AU Core RelatedPerson profile snippet
+
 - removed the `active=true` constraint (following decision taken recently at AU Core Technical Working Group meetings)
 
 [0.0.7]: https://github.com/robstwd/fhir-snippets/compare/v0.0.6...v0.0.7
