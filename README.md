@@ -1,6 +1,6 @@
 # FHIR Snippets in XML
 
-This extension is a collection of VS Code snippets to create instances of various HL7^®^ FHIR^®©^ resources, aligned to an Australian context.
+This extension is a collection of VS Code snippets to create instances of various HL7<sup>®</sup> FHIR<sup>®©</sup> resources, aligned to an Australian context.
 
 The primary motivations to develop this extension:
 
