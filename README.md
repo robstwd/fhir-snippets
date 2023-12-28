@@ -1,47 +1,79 @@
 # FHIR Snippets in XML
 
-This extension is a collection of VS Code snippets to create instances of various  HL7<sup>&reg;</sup> FHIR<sup>&reg;&copy;</sup> resources, aligned to an Australian context.
+This extension is a collection of VS Code snippets to create instances of various HL7^®^ FHIR^®©^ resources, aligned to an Australian context.
 
 The primary motivations to develop this extension:
-1. learning 
+
+1. learning
 2. always seeking efficiencies
-3. share with colleagues 
+3. share with colleagues
 
 ## FHIR
+
 Refer to the main FHIR specification page [https://hl7.org/fhir/R4/index.html](https://hl7.org/fhir/R4/index.html)
 
 ## Scope
+
 - support for xml instances only at this time
 - FHIR R4 (4.0.1 and probably R4B)
 - support for Australian context
 
 ## Features
+
 This extension supports snippets for
-- entire FHIR resource types, such as [Patient](https://hl7.org/fhir/R4/patient.html), [Practitioner](https://hl7.org/fhir/R4/practitioner.html), [HealthcareService](https://hl7.org/fhir/R4/healthcareservice.html), [Location](https://hl7.org/fhir/R4/location.html), [Organization](https://hl7.org/fhir/R4/organization.html), [PractitionerRole](https://hl7.org/fhir/R4/practitionerrole.html) and [RelatedPerson](https://hl7.org/fhir/R4/relatedperson.html)
-  - each resource type is represented in a number of '_flavours_', that comply with the core spec as well as various profiles in the Australian context; such as [HL7AU AU Base profiles](https://build.fhir.org/ig/hl7au/au-fhir-core/profiles-and-extensions.html), or [HL7AU AU Core profiles](https://hl7.org.au/fhir/4.1.0/profiles-and-extensions.html). See below for the complete list of supported _flavours_.
-  - each of the file snippets represents a complete FHIR resource, with all mandatory elements and the majority of available optional elements. The optional elements can then just be deleted as desired to support the scenario of interest
-  - snippets complying with AU Core profiles include all mandatory elements and only optional elements that have must support as true
-  - the sample values supplied use the string "TODO" to be a prompt for the user to update with desired values
-  - where terminology based elements have a discrete list of codes, they are supported by a drop down pick list in the snippet
-- [Identifier datatype](https://hl7.org/fhir/R4/datatypes.html#Identifier) nodes, such as IHI or HPI-I identifiers
-  - Identifier snippets can be inserted into any of the above complete FHIR resources in the standard element ordering
-  - Identifier snippets are organised by applicable resource type and closely follow the definitions in the [AU Base Identifier datatype profiles](https://hl7.org.au/fhir/4.1.0/profiles-and-extensions.html#identifier)
+
+- entire FHIR resource types, such as [Patient](https://hl7.org/fhir/R4/patient.html),
+  [Practitioner](https://hl7.org/fhir/R4/practitioner.html),
+  [HealthcareService](https://hl7.org/fhir/R4/healthcareservice.html),
+  [Location](https://hl7.org/fhir/R4/location.html),
+  [Organization](https://hl7.org/fhir/R4/organization.html),
+  [PractitionerRole](https://hl7.org/fhir/R4/practitionerrole.html) and
+  [RelatedPerson](https://hl7.org/fhir/R4/relatedperson.html)
+  - each resource type is represented in a number of '_flavours_', that comply
+  with the core spec as well as various profiles in the Australian context; such
+  as [HL7AU AU Base profiles](https://build.fhir.org/ig/hl7au/au-fhir-core/profiles-and-extensions.html),
+  or [HL7AU AU Core profiles](https://hl7.org.au/fhir/4.1.0/profiles-and-extensions.html).
+  See below for the complete list of supported _flavours_.
+  - each of the file snippets represents a complete FHIR resource, with all
+  mandatory elements and the majority of available optional elements. The
+  optional elements can then just be deleted as desired to support the scenario
+  of interest
+  - snippets complying with AU Core profiles include all mandatory elements and
+  only optional elements that have must support as true
+  - the sample values supplied use the string "TODO" to be a prompt for the user
+  to update with desired values
+  - where terminology based elements have a discrete list of codes, they are
+  supported by a drop down pick list in the snippet
+- [Identifier datatype](https://hl7.org/fhir/R4/datatypes.html#Identifier)
+  nodes, such as IHI or HPI-I identifiers
+  - Identifier snippets can be inserted into any of the above complete FHIR
+  resources in the standard element ordering
+  - Identifier snippets are organised by applicable resource type and closely
+  follow the definitions in the [AU Base Identifier datatype profiles](https://hl7.org.au/fhir/4.1.0/profiles-and-extensions.html#identifier)
   - see below for a complete list of available Identifier types
 
 ## Usage
+
 1. Within an empty file of type `.xml`
-2. Invoke the list of available snippets as a pop up by 
+2. Invoke the list of available snippets as a pop up by
    1. pressing `Ctrl + Space`
-   2. opening the command palette (`Ctrl + Shift + p`), type 'snippet' and choose 'insert snippet'
+   2. opening the command palette (`Ctrl + Shift + p`), type 'snippet' and
+   choose 'insert snippet'
    3. pressing `Shift + Alt + s`
-3. Scroll the list or start typing characters from the prefixes listed in the tables below
-4. Eg to filter the snippets to those related to AU Base profiles, type `aubase` or to find all Identifiers, type `identifier` or part thereof
-5. Scroll down to one of the choices and hit enter, upon which the specific XML nodes are added
-6. Choose from the available pick lists and update data to support the example scenario 
+3. Scroll the list or start typing characters from the prefixes listed in the
+   tables below
+4. Eg to filter the snippets to those related to AU Base profiles, type `aubase`
+   or to find all Identifiers, type `identifier` or part thereof
+5. Scroll down to one of the choices and hit enter, upon which the specific XML
+   nodes are added
+6. Choose from the available pick lists and update data to support the example scenario
 
 ## Supported resources
+
 ### HealthcareService
+
 #### Resource flavours
+
 The following flavours of the HealthcareService resource are supported:
 
 | Snippet Name | Prefix   | Aligns to structure |
@@ -52,7 +84,9 @@ The following flavours of the HealthcareService resource are supported:
 | Example FHIR HealthcareService PCA | `HealthcareService-pca` | [PCA Healthcare Service](https://pca.digitalhealth.gov.au/fhir/4.0/StructureDefinition-pca-healthcare-service.html) |
 
 #### Identifier types
-The following Identifier types pertinent for the HealthcareService resource in an Australian context are supported:
+
+The following Identifier types pertinent for the HealthcareService resource in
+an Australian context are supported:
 
 | Snippet Name | Prefix   | Aligns to structure |
 | ------------ | -------- | ----------- |
@@ -61,7 +95,9 @@ The following Identifier types pertinent for the HealthcareService resource in a
 | HealthcareService-Identifier-PCAHSI | `HealthcareService-Identifier-pcahsi` | [PCA Healthcare Service Identifier](https://pca.digitalhealth.gov.au/fhir/4.0/StructureDefinition-pca-healthcare-service-identifier.html) |
 
 ### Location
+
 #### Resource flavours
+
 The following flavours of the Location resource are supported:
 
 | Snippet Name | Prefix   | Aligns to structure |
@@ -74,6 +110,7 @@ The following flavours of the Location resource are supported:
 | Example FHIR Location PCA physical | `Location-pca-physical` | [PCA Location](https://pca.digitalhealth.gov.au/fhir/4.0/2.4.0/StructureDefinition-pca-location.html) of type 'physical'|
 
 #### Identifier types
+
 The following Identifier types pertinent for the Location resource in an Australian context are supported:
 
 | Snippet Name | Prefix   | Aligns to structure |
@@ -84,7 +121,9 @@ The following Identifier types pertinent for the Location resource in an Austral
 | Location-Identifier-Geocoded National Address File | `Location-Identifier-gnaf` | [AU G-NAF Identifier](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-gnafidentifier.html) |
 
 ### Organization
+
 #### Resource flavours
+
 The following flavours of the Organization resource are supported:
 
 | Snippet Name | Prefix   | Aligns to structure |
@@ -96,6 +135,7 @@ The following flavours of the Organization resource are supported:
 | Example FHIR Organization PCA | `Organization-pca` | [PCA Organization](https://pca.digitalhealth.gov.au/fhir/4.0/StructureDefinition-pca-organization.html) |
 
 #### Identifier types
+
 The following Identifier types pertinent for the Organization resource in an Australian context are supported:
 
 | Snippet Name | Prefix   | Aligns to structure |
@@ -110,7 +150,9 @@ The following Identifier types pertinent for the Organization resource in an Aus
 | Organization-Identifier-Pharmacy Approval Number | `Organization-Identifier-PharmacyApprovalNumber` | [AU Pharmacy Approval Number](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-pharmacyapprovalnumber.html) |
 
 ### Patient
+
 #### Resource flavours
+
 The following flavours of the Patient resource are supported:
 
 | Snippet Name | Prefix   | Aligns to structure |
@@ -120,6 +162,7 @@ The following flavours of the Patient resource are supported:
 | Example FHIR Patient AU Core | `Patient-aucore` | [AU Core Patient](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-patient.html) |
 
 #### Identifier types
+
 The following Identifier types pertinent for the Patient resource in an Australian context are supported:
 
 | Snippet Name | Prefix   | Aligns to structure |
@@ -135,7 +178,9 @@ The following Identifier types pertinent for the Patient resource in an Australi
 | Patient-Identifier-insurancemembernumber | `Patient-Identifier-insurancemembernumber` | [AU Insurance Member Number](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-insurancemembernumber.html) |
 
 ### Practitioner
+
 #### Resource flavours
+
 The following flavours of the Practitioner resource are supported:
 | Snippet Name | Prefix   | Aligns to structure |
 | ------------ | -------- | ----------- |
@@ -144,6 +189,7 @@ The following flavours of the Practitioner resource are supported:
 | Example FHIR Practitioner AU Core | `Practitioner-aucore` | [AU Core Practitioner](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-practitioner.html) |
 
 #### Identifier types
+
 The following Identifier types pertinent for the Practitioner resource in an Australian context are supported:
 
 | Snippet Name | Prefix   | Aligns to structure |
@@ -155,7 +201,9 @@ The following Identifier types pertinent for the Practitioner resource in an Aus
 | Practitioner-Identifier-PCA Practitioner Identifier | `Practitioner-Identifier--pca-practitioner-identifier` | [PCA Practitioner Identifier](https://pca.digitalhealth.gov.au/fhir/4.0/StructureDefinition-pca-practitioner-identifier.html) |
 
 ### PractitionerRole
+
 #### Resource flavours
+
 The following flavours of the PractitionerRole resource are supported:
 
 | Snippet Name | Prefix   | Aligns to structure |
@@ -165,6 +213,7 @@ The following flavours of the PractitionerRole resource are supported:
 | Example FHIR PractitionerRole AU Core | `PractitionerRole-aucore` | [AU Core PractitionerRole](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-practitionerrole.html) |
 
 #### Identifier types
+
 The following Identifier types pertinent for the PractitionerRole resource in an Australian context are supported:
 
 | Snippet Name | Prefix   | Aligns to structure |
@@ -174,7 +223,9 @@ The following Identifier types pertinent for the PractitionerRole resource in an
 | PractitionerRole-Identifier-National Provider Identifier At Organisation | `PractitionerRole-Identifier-NationalProviderIdentifierAtOrganisation` | [AU National Provider Identifier At Organisation](https://hl7.org.au/fhir/4.1.0/StructureDefinition-au-nationalprovideridentifieratorganisation.html) |
 
 ### RelatedPerson
+
 #### Resource flavours
+
 The following flavours of the RelatedPerson resource are supported:
 
 | Snippet Name | Prefix   | Aligns to structure |
@@ -184,5 +235,5 @@ The following flavours of the RelatedPerson resource are supported:
 | Example FHIR RelatedPerson AU Core | `RelatedPerson-aucore` | [AU Core RelatedPerson](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-relatedperson.html) |
 
 #### Identifier types
-All of the  Australian context Patient related Identifier types can also be used in RelatedPerson resources. See above.
 
+All of the  Australian context Patient related Identifier types can also be used in RelatedPerson resources. See above.
