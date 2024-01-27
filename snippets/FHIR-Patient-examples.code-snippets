@@ -300,6 +300,7 @@
       "        <display value=\"TODO-display-for-${22}\"/>",
       "      </coding>",
       "    </language>",
+      "    <preferred value=\"${23|true,false|}\"/>",
       "  </communication>",
       "  <generalPractitioner>",
       "    <reference value=\"Practitioner/TODO\"/>",
@@ -393,6 +394,7 @@
       "        <display value=\"TODO-display-for-${9}\"/>",
       "      </coding>",
       "    </language>",
+      "    <preferred value=\"${10|true,false|}\"/>",
       "  </communication>",
       "</Patient>"
     ],
