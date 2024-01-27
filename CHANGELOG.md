@@ -4,6 +4,29 @@ All notable changes to the "fhir-snippets" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.1] - 2024-01-28
+
+### Added
+
+- added the [core spec extension patient-birthTime](https://hl7.org/fhir/extensions/StructureDefinition-patient-birthTime.html) on HL7AU Patient profiles (on element `Patient.birthDate`)
+- added element `Patient.communication.preferred` to AU Patient profile snippets
+- add hyperlinks for resources to readme
+
+### Changed
+
+- reformatted readme to remove markdown formatting violations (using [markdownlint](https://github.com/DavidAnson/markdownlint))
+- reverted the superscript tag in the readme, back to using `<sup>`
+
+### Removed
+
+- nil
+
+### Fixed
+
+- corrected the bad ordering of numbered placeholder elements in the Patient resource snippets
+
+[0.1.1]: https://github.com/robstwd/fhir-snippets/compare/v0.1.0...v0.1.1
+
 ## [0.1.0] - 2023-12-23
 
 ### Added
@@ -15,7 +38,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - added hyperlinks to Changelog for GitHub tag comparison
 - added sections in README for feature and usage
 - added missing description for AU Core Organisation snippet
-- added missing description for AU Core HealthcareService snippet
+- added missing description for AU Core HealthcareService snippet 
 - added internal snippet to facilitate Changelog updates
 
 ### Changed
