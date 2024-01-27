@@ -38,7 +38,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - added hyperlinks to Changelog for GitHub tag comparison
 - added sections in README for feature and usage
 - added missing description for AU Core Organisation snippet
-- added missing description for AU Core HealthcareService snippet 
+- added missing description for AU Core HealthcareService snippet
 - added internal snippet to facilitate Changelog updates
 
 ### Changed
