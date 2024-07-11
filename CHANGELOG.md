@@ -4,6 +4,40 @@ All notable changes to the "fhir-snippets" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.0] - 2024-07-11
+
+### Added
+
+- added support for [Australian Veteran Status extension](https://hl7.org.au/fhir/4.2.0-preview/StructureDefinition-veteran-status.html) in AU Base Patient profile snippet
+- added support for [Individual Gender Identity extension](http://hl7.org/fhir/StructureDefinition/individual-genderIdentity) in AU Core Patient profile snippet
+- added support for [Individual Pronouns extension](http://hl7.org/fhir/StructureDefinition/individual-pronouns) in AU Core Patient profile snippet
+- comments preceding various terminology Patient snippets indicating the pertinent ValueSet bindings
+- added missing code `U` from R4 Spec Patient snippet for maritalStatus
+- added comments above empty placeholder nodes in Patient snippets to explicitly indicate what is required
+
+### Changed
+
+- update AU Base Patient snippet for [Individual Pronouns extension](http://hl7.org/fhir/StructureDefinition/individual-pronouns) with new Australian terminology
+- update xml comments that precede HL7 International extensions
+- [Patient Birth Place extension](http://hl7.org/fhir/StructureDefinition/patient-birthPlace) address.country value to be 3 character `AUS` to align with the international address datatype guidance
+- updated comments above choice elements in patient snippets to explicitly indicate one must be deleted
+- updated [Person Recorded Sex Or Gender](http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender) extension with correct terminology and added missing sub-extension
+
+### Removed
+
+- birthPlace extension from AU Core Patient snippet, as it no longer has the must support flag
+- Patient.maritalStatus from AU Base Patient snippet
+
+### Fixed
+
+- incorrect ordering of snippet placeholders
+- incomplete structure of [Individual Gender Identity extension](http://hl7.org/fhir/StructureDefinition/individual-genderIdentity) in AU Base Patient profile snippet
+- incorrect datatype for AU Base [Australian Indigenous Status](https://build.fhir.org/ig/hl7au/au-fhir-base/StructureDefinition-indigenous-status.html) extension (valueCoding instead of valueCodeableConcept) in AU Base and AU Core patient snippets
+- incorrect terminology for R4 Patient.contact.relationship
+- incorrect terminology for AU Base Patient.contact.relationship
+
+[0.2.0]: https://github.com/robstwd/fhir-snippets/compare/v0.2.0...v0.1.1
+
 ## [0.1.1] - 2024-01-28
 
 ### Added
