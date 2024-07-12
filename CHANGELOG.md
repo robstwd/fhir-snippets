@@ -4,6 +4,27 @@ All notable changes to the "fhir-snippets" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.2] - 2024-07-12
+
+### Added
+
+- AU Base Patient snippet: added comments above coded elements with reference to their respective ValueSet bindings (date-accuracy-indicator and communication.language)
+
+### Changed
+
+- nil
+
+### Removed
+
+- nil
+
+### Fixed
+
+- AU Base Patient snippet: fixed incorrect terminology for extension `genderIdentity` - now https://healthterminologies.gov.au/fhir/ValueSet/gender-identity-response-1
+- AU Base Patient snippet: fixed incorrect terminology options for extension `recordedSexOrGender ` from http://terminology.hl7.org.au/CodeSystem/rsg-type
+
+[0.2.2]: https://github.com/robstwd/fhir-snippets/compare/v0.2.1...v0.2.2
+
 ## [0.2.1] - 2024-07-12
 
 ### Added
