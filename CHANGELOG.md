@@ -4,6 +4,31 @@ All notable changes to the "fhir-snippets" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.1] - 2024-07-12
+
+### Added
+
+- in R4 Patient snippet: added element `Patient.active` with boolean choice
+- in R4 Patient snippet: added comment above `meta`
+- in R4 Patient snippet: added placeholder text for `Patient.multipleBirthInteger`
+- in R4 Patient snippet: added empty element `Patient.photo`
+- in R4 Patient snippet: added other types to `Patient.generalPractitioner` (Organization & PractitionerRole)
+- in R4 Patient snippet: added element `Patient.link` with mandatory child elements
+
+### Changed
+
+- in R4 Patient snippet: updated numbered ordering of placeholders
+
+### Removed
+
+- nil
+
+### Fixed
+
+- nil
+
+[0.2.1]: https://github.com/robstwd/fhir-snippets/compare/v0.2.0...v0.2.1
+
 ## [0.2.0] - 2024-07-11
 
 ### Added
